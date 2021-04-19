@@ -1,0 +1,10 @@
+@mixin position {
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+@mixin animation ($duration){
+    animation-duration: $duration;
+    animation-timing-function: ease-out;
+}
